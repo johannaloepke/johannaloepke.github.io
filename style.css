@@ -1,7 +1,6 @@
-h1{
+#top{
 	text-align: center;
 	color: white;
-	background-color: purple;
-	font-size: 20px;
-	border: 40px solid white;
+	background-image: url("succulent.jpg");
+	font-size: 400px;
 }
