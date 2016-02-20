@@ -1,6 +1,7 @@
-.hero-unit{
+#top{
 	text-align: center;
 	color: white;
 	background-image: url("ocean.jpg");
-	font-size: 200px;
+	background-size: 3000px 2000px;
+	font-size: 1000px;
 }
