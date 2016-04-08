@@ -82,6 +82,12 @@ h3 {
 	font-size: 20px;
 }
 
+.discrete {
+	color: #0E3771;
+	font-family: 'Josefin Sans', bold;
+	font-size: 20px;
+}
+
 .logic {
 	color: #0E3771;
 	font-family: 'Josefin Sans', bold;
