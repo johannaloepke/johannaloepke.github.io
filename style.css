@@ -93,3 +93,21 @@ h3 {
 	font-family: 'Josefin Sans', bold;
 	font-size: 20px;
 }
+
+h4 {
+	color: #0E3771;
+	font-family: 'Josefin Sans', bold;
+	font-size: 35px;
+}
+
+.roxbury {
+	color: #9AA5AA;
+	font-family: 'Josefin Sans';
+	font-size: 20px;
+}
+
+.logo {
+	float: left;
+	height: 200px;
+	width: 200px;
+}
