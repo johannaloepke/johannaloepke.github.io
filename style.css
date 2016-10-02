@@ -69,26 +69,8 @@ h3 {
 	font-family: 'Josefin Sans', bold !important;
 }
 
-.fundies1 {
+.class {
 	float: right;
-	color: #0E3771;
-	font-family: 'Josefin Sans', bold;
-	font-size: 20px;
-}
-
-.fundies2 {
-	color: #0E3771;
-	font-family: 'Josefin Sans', bold;
-	font-size: 20px;
-}
-
-.discrete {
-	color: #0E3771;
-	font-family: 'Josefin Sans', bold;
-	font-size: 20px;
-}
-
-.logic {
 	color: #0E3771;
 	font-family: 'Josefin Sans', bold;
 	font-size: 20px;
