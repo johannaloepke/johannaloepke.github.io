@@ -70,6 +70,7 @@ h3 {
 }
 
 .class {
+	padding-bottom: 10px !important;
 	float: right !important;
 	color: #0E3771 !important;
 	font-family: 'Josefin Sans', bold !important;
