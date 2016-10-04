@@ -4,9 +4,6 @@ h1 {
 	color: white;
 	font-size: 120px;
 	font-family: 'Josefin Sans', bold;
-
-	-webkit-transition: all 0.5s ease;
-	transition: all 0.5s ease;
 }
 
 h1:hover {
