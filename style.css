@@ -3,7 +3,7 @@ h1 {
 	padding-top: 100px;
 	color: white !important;
 	font-size: 120px !important;
-	font-family: 'Josefin Sans', bold;
+	font-family: 'Josefin Sans', bold !important;
 }
 
 a:link, a:visited, a:active {
