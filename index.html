@@ -1,32 +1,20 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:700,600italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<script src = "js/jquery.js" >
-	</script>
-	<script>
-	$("document").ready(function() {
-		$(".top").hover(function() {
-			$(this).animate({
-				paddingBottom:'+=200px'
-			}, 2000);
-		}, function() {
-			$(this).animate({
-				paddingBottom:'-=200px'
-			}, 2000);
-		});
-	});
-	</script>
+		<title> Johanna Loepke </title>
+		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:700,600italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	</head>
 	<body>
-		<title>
-		Johanna Loepke
-		</title>
 	<div class="jumbotron">
 		<div class="container">
 			<h1 id="top"> Johanna Loepke </h1>
+			<script type="text/javascript" src="js/move.js"> </script>
+			<script type="text/javascript">
+      			document.getElementById('top').onHover = function(e) { move('.h1').x(300).end();
+      			};
+    </script>
 			<div class="caption">
 				<a href="#about" class="caption">About Me</a>
 				<a href="#project" class="caption">Projects</a>
