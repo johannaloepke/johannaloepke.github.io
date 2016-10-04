@@ -5,24 +5,21 @@
 		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:700,600italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script>
-		$(function() {
-		  $('a[href*='#']:not([href='#'])').click(function() {
+				$(function() {
+		  $('a[href*="#"]:not([href="#"])').click(function() {
 		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-		      var target = this.hash;
-		      var $target = $j(this.hash).length > 0? $j(this.hash) : 
-		      $j('a[name=' + target.rplace(/#/,)+']');
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 		      if (target.length) {
-		        $('html,body').animate({
+		        $('html, body').animate({
 		          scrollTop: target.offset().top
 		        }, 1000);
 		        return false;
 		      }
 		    }
 		  });
-		});
-		</script>
+		}); </script>
 	</head>
 	<body>
 	<div class="jumbotron">
@@ -36,7 +33,7 @@
 		</div>
 	</div>
 	<div class="container">
-		<div name="about"> </div>
+		<a name="about"> </a>
 		<h2> About Me </h2>
 		<img src="surf.jpg" class="myPic"/>
 		<div class="row">
@@ -47,7 +44,7 @@
 		</div>
 	</div>
 	<div class="container">
-		<div name="project"> </div>
+		<a name="project"> </a>
 		<h2> Projects </h2>
 		<div class="row">
 			<h4> HACKMIT 2016 Project </h4>
@@ -55,7 +52,7 @@
 		</div>
 	</div>
 	<div class="container">
-		<div name="edu"> </div>
+		<a name="edu"> </a>
 		<h2> Education </h2>
 		<img src="northeastern.png" class="neu"/>
 		<div class="row">
