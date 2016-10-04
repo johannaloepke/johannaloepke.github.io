@@ -5,12 +5,21 @@
 		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:700,600italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<script type="text/javascript" src="script.js"></script>
 	</head>
 	<body>
 	<div class="jumbotron">
 		<div class="container">
 			<header> <h1 id="top"> Johanna Loepke </h1> </header>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.110/jquery.min.js"> </script>
+			<script> 
+				$(window).scroll(function() {
+					if ($(this).scrollTop() > 1) {  
+    					$('header').addClass("sticky");
+  					}
+  					else {
+    					$('header').removeClass("sticky");
+  					}
+				}); </script>
 			<div class="caption">
 				<a href="#about" class="caption">About Me</a>
 				<a href="#project" class="caption">Projects</a>
