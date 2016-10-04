@@ -5,21 +5,12 @@
 		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:700,600italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<script>
-				$(function() {
-		  $('a[href*="#"]:not([href="#"])').click(function() {
-		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-		      var target = $(this.hash);
-		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-		      if (target.length) {
-		        $('html, body').animate({
-		          scrollTop: target.offset().top
-		        }, 1000);
-		        return false;
-		      }
-		    }
-		  });
-		}); </script>
+		<script src="//code.jquery.com/jquery-3.1.0.min.js"></script>
+		<script src="jquery.smoothPageScroll.js"></script>
+		<script src="jquery.easing.1.3.min.js"></script>
+		<script type="text/javascript">
+			$('a[href^="#"]').smoothPageScroll();
+		</script>
 	</head>
 	<body>
 	<div class="jumbotron">
@@ -33,8 +24,7 @@
 		</div>
 	</div>
 	<div class="container">
-		<a name="about"> </a>
-		<h2> About Me </h2>
+		<div id="about"> About Me </div>
 		<img src="surf.jpg" class="myPic"/>
 		<div class="row">
 			<div class="col-md-5">
@@ -44,16 +34,14 @@
 		</div>
 	</div>
 	<div class="container">
-		<a name="project"> </a>
-		<h2> Projects </h2>
+		<div id="project"> Projects </div>
 		<div class="row">
 			<h4> HACKMIT 2016 Project </h4>
 			<p class="hack"> Created a Google Cardboard VR experience of the solar system using Unity and C# scripts. </p>
 		</div>
 	</div>
 	<div class="container">
-		<a name="edu"> </a>
-		<h2> Education </h2>
+		<div id="edu"> Education </div>
 		<img src="northeastern.png" class="neu"/>
 		<div class="row">
 			<div class="col-md-offset-5">

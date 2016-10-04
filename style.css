@@ -28,12 +28,23 @@ a.caption:hover {
     overflow: hidden;
 }
 
-h2 {
+.about {
 	color: #3BC6F8 !important;
 	font-size: 100px !important;
 	font-family: 'Josefin Sans', bold !important;
 }
 
+.project {
+	color: #3BC6F8 !important;
+	font-size: 100px !important;
+	font-family: 'Josefin Sans', bold !important;
+}
+
+.edu {
+	color: #3BC6F8 !important;
+	font-size: 100px !important;
+	font-family: 'Josefin Sans', bold !important;
+}
 p {
 	color: #3BC6F8;
 }
