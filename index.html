@@ -5,21 +5,23 @@
 		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:700,600italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script>
-		$('a[href*=#]:not([href=#])').click(function() {
-  		  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-       		 || location.hostname == this.hostname) {
-
-        		var target = $(this.hash);
-       		 target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-           		if (target.length) {
-            		 $('html,body').animate({
-                	 scrollTop: target.offset().top
-            	}, 1000);
-           		 return false;
-        		}
-    		}
-		}); </script>
+		$(function() {
+		  $('a[href*=#]:not([href=#])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      if (target.length) {
+		        $('html,body').animate({
+		          scrollTop: target.offset().top
+		        }, 1000);
+		        return false;
+		      }
+		    }
+		  });
+		});
+		</script>
 	</head>
 	<body>
 	<div class="jumbotron">
@@ -33,7 +35,7 @@
 		</div>
 	</div>
 	<div class="container">
-		<a name="about"> </a>
+		<div name="about"> </div>
 		<h2> About Me </h2>
 		<img src="surf.jpg" class="myPic"/>
 		<div class="row">
@@ -44,7 +46,7 @@
 		</div>
 	</div>
 	<div class="container">
-		<a name="project"> </a>
+		<div name="project"> </div>
 		<h2> Projects </h2>
 		<div class="row">
 			<h4> HACKMIT 2016 Project </h4>
@@ -52,7 +54,7 @@
 		</div>
 	</div>
 	<div class="container">
-		<a name="edu"> </a>
+		<div name="edu"> </div>
 		<h2> Education </h2>
 		<img src="northeastern.png" class="neu"/>
 		<div class="row">
