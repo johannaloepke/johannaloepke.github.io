@@ -1,4 +1,4 @@
-header {
+h1 {
 	text-align: center;
 	padding-top: 100px;
 	color: white;
@@ -9,7 +9,7 @@ header {
 	transition: all 0.5s ease;
 }
 
-header.sticky {
+h1.sticky {
 	position: fixed;
     font-size: 24px;
   	line-height: 0px;
@@ -17,7 +17,6 @@ header.sticky {
   	width: 100%;
   	background: #000 url("ocean.jpg") center left;
   	text-align: left;
-  	padding-left: 20px;
 }
 
 a:link, a:visited, a:active {
