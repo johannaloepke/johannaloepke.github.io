@@ -10,12 +10,11 @@ header {
 }
 
 header.sticky {
-	position: fixed;
     font-size: 24px;
   	line-height: 48px;
  	height: 48px;
   	width: 100%;
-  	background: #000 url("ocean.jpg") center center;
+  	background: #000 url("ocean.jpg") left center;
   	text-align: left;
   	padding-left: 20px;
 }
