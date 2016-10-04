@@ -107,3 +107,67 @@ h4 {
 	font-family: 'Josefin Sans';
 	font-size: 20px;
 }
+
+#screens {
+	position:relative;
+	width:100%;
+}
+#screens.screen {
+	position:absolute; 
+	width:100%; 
+	overflow:hidden; 
+	display:none;
+}
+
+#a-home {}
+#a-home #home-statements {
+	position:absolute; 
+	bottom:0px; 
+	left:50%; 
+	-webkit-user-select:none;
+	-moz-user-select:none; 
+	user-select:none;
+}
+#a-home #home-statements * {
+	-webkit-user-select:none;
+	-moz-user-select:none; 
+	user-select:none;
+}
+#a-home .statement-spinner {
+	position:absolute; 
+	bottom:0; 
+	left:0; 
+	width:0px; 
+	display:none;
+}
+#a-home .statement {
+	position:absolute;
+	 width:100%; 
+	 text-align:center;
+	}
+#a-home.statement.title, #a-home.statement.st-bullets {
+	position:relative;
+}
+#a-home.statement.st-desc {
+	position:relative; 
+	text-align:center;
+}
+#a-home.statement.st-desc.st-content {
+	position:relative; 
+	display:inline-block;
+}
+#a-home.statement.st-bullets.st-bullet {
+	position:relative;
+	display:inline-block; 
+	*display:inline; 
+	zoom:1; 
+	overflow:hidden;
+	cursor:pointer;
+}
+#a-home.statement.st-bullets.st-bullet.bullet {
+	position:relative;
+	top:-100%;
+}
+#a-home.statement.st-bullets.st-bullet.bullet-active, #a-home.statement.st-bullets.st-bullet.bullet-hover {
+	top:0%;
+}
