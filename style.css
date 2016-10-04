@@ -4,16 +4,20 @@
 	color: white;
 	font-size: 120px;
 	font-family: 'Josefin Sans', bold;
+
+	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
 
 #top.sticky {
-  font-size: 24px;
-  line-height: 48px;
-  height: 48px;
-  background: #000 url("ocean.jpg") center center;
-  text-align: left;
-  padding-left: 20px;
+	position: fixed;
+    font-size: 24px;
+  	line-height: 48px;
+ 	height: 48px;
+  	width: 100%;
+  	background: #000 url("ocean.jpg") center center;
+  	text-align: left;
+  	padding-left: 20px;
 }
 
 a:link, a:visited, a:active {
