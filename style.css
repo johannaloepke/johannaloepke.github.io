@@ -6,6 +6,12 @@
 	font-family: 'Josefin Sans', bold;
 }
 
+.title: hover {
+	cursor: pointer;
+	color: rgba(200, 200, 200, 0.6);
+	text-shadow: 3px 6px 10px #FFFFFF, 0 0 0 #000000;
+}
+
 a:link, a:visited, a:active {
 	padding-left: 220px;
 	color: white;
