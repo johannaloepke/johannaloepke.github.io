@@ -21,6 +21,20 @@
 		<a name="about"> </a>
 		<h2> About Me </h2>
 		<img src="surf.jpg" class="myPic"/>
+		<script type="text/javascript">
+		function Scroll(){
+		var top = document.getElementById('myPic');
+		var ypos = window.pageYOffset;
+		if(ypos > 2980) {
+			top.style.opacity = "0";
+		}
+		else{
+			top.style.opacity = "1";
+			}
+		}
+		window.addEventListener("scroll",Scroll);
+		</script>
+
 		<div class="row">
 			<div class="col-md-5">
 				<p class="bio"> Hi! My name is Johanna and I love adventure and outdoor sports almost 
