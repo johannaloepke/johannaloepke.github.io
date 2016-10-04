@@ -16,6 +16,7 @@ header.sticky {
   	width: 100%;
   	background: #000 url("ocean.jpg") center left;
   	text-align: left;
+  	padding-left: 20px;
 }
 
 a:link, a:visited, a:active {
