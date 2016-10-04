@@ -1,4 +1,4 @@
-#top {
+header {
 	text-align: center;
 	padding-top: 100px;
 	color: white;
@@ -6,7 +6,7 @@
 	font-family: 'Josefin Sans', bold;
 }
 
-#top.sticky {
+header.sticky {
   font-size: 24px;
   line-height: 48px;
   height: 48px;
