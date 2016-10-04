@@ -42,8 +42,6 @@ p {
 	float: right;
 	height: 400px;
 	width: 600px;
-	position: fixed;
-	trasition: all 0.4s;
 }
 
 .bio {
