@@ -9,13 +9,8 @@ h1 {
 	transition: all 0.5s ease;
 }
 
-h1.sticky {
-	margin-top: 2px;
-    font-size: 24px;
- 	height: 48px;
-  	width: 100%;
-  	background: #000 url("ocean.jpg");
-  	text-align: left;
+h1:hover {
+	padding-top: 50px; 
 }
 
 a:link, a:visited, a:active {
