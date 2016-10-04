@@ -7,6 +7,7 @@ h1 {
 }
 
 h1:hover {
+	text-align: center;
 	padding-top: 50px; 
 }
 
@@ -48,7 +49,7 @@ p {
 	width: 600px;
 }
 
-.bio{
+.bio {
 	float: left;
 	color: #0E3771;
 	font-family: 'Josefin Sans', bold;
@@ -61,7 +62,7 @@ p {
 	width: 400px;
 }
 
-.school{
+.school {
 	float: right;
 	color: #0E3771;
 	font-family: 'Josefin Sans', bold;
@@ -105,14 +106,8 @@ h4 {
 	font-size: 35px !important;
 }
 
-.roxbury {
+.hack {
 	color: #9AA5AA;
 	font-family: 'Josefin Sans';
 	font-size: 20px;
-}
-
-.logo {
-	float: left;
-	height: 200px;
-	width: 200px;
 }
