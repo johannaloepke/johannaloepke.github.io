@@ -1,15 +1,9 @@
 h1 {
 	text-align: center;
 	padding-top: 100px;
-	font-color: white;
-	font-size: 200px;
+	color: white;
+	font-size: 120px;
 	font-family: 'Josefin Sans', bold;
-}
-
-h1:hover {
-	text-align: center;
-	padding-top: 50px;
-	border-bottom: 50px solid transparent 
 }
 
 a:link, a:visited, a:active {
