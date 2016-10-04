@@ -10,7 +10,7 @@ h1 {
 }
 
 h1.sticky {
-	position: fixed;
+	position: relative;
     font-size: 24px;
   	line-height: 0px;
  	height: 20%;
@@ -52,13 +52,13 @@ p {
 }
 
 .myPic {
-	float:right;
+	float: right;
 	height: 400px;
 	width: 600px;
 }
 
 .bio{
-	float:left;
+	float: left;
 	color: #0E3771;
 	font-family: 'Josefin Sans', bold;
 	font-size: 20px;
