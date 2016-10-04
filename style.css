@@ -8,7 +8,8 @@ h1 {
 
 h1:hover {
 	text-align: center;
-	padding-top: 50px; 
+	padding-top: 50px;
+	border-bottom: 50px solid transparent 
 }
 
 a:link, a:visited, a:active {
@@ -107,6 +108,7 @@ h4 {
 }
 
 .hack {
+	float: left;
 	color: #9AA5AA;
 	font-family: 'Josefin Sans';
 	font-size: 20px;
