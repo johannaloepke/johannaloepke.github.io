@@ -1,3 +1,15 @@
+.memo {
+	position: absolute;
+	text-align: right;
+	top: 0;
+	right: 0;
+	padding-top: 5px;
+	padding-right: 5px;
+	color: white;
+	font-size: 15px;
+	font-family: 'Josefin Sans', serif;
+}
+
 .title {
 	text-align: center;
 	padding-top: 100px;

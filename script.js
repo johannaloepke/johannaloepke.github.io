@@ -14,11 +14,12 @@ $(document).ready(function() {
 	    });
 	});
 
-	// changes the jumbotron picture to NASA's Astronomy Picture of the Day on hover
-	$('.jumbotron').hover( 
+	// changes the jumbotron picture to NASA's Astronomy Picture of the Day on click
+	$('.jumbotron').toggle( 
 		function() {
-			$.ajax("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY", {
+			$.ajax("https://api.nasa.gov/planetary/apod?api_key=639SL5aQsEnsUBZkjD6GobqRKpOmZ7s2K6qeUhGE", {
 	    		success: function (data) {
+	    			data.hd = true;
 	      			$(".jumbotron").css("background", "url(" + data.url + ")");
 	    		}
 	    	});
