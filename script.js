@@ -21,6 +21,7 @@ $(document).ready(function() {
 	    		success: function (data) {
 	    			data.hd = true;
 	      			$(".jumbotron").css("background", "url(" + data.url + ")");
+	      			$(".jumbotron").css("background-size", "cover");
 	    		}
 	    	});
 		},
