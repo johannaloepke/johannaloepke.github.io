@@ -102,6 +102,24 @@ a.apk {
 	width: 49%;
 }
 
+.leftGame {
+	float: left;
+	position: relative;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	height: 500px;
+	width: 49%;
+}
+
+.rightGame {
+	float: right;
+	position: relative;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	height: 500px;
+	width: 49%;
+}
+
 .school {
 	float: right;
 	color: #0E3771;
