@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+		<script src="//www.java.com/js/deployJava.js"></script>
 		<script src="script.js"></script>
 	</head>
 
@@ -48,6 +49,16 @@
 			<img src="Images/VRPic4.png" class="rightVR"/>
 			<h4> Forbidden Island Game </h4>
 			<p class="hack"> Programmed this game in Java. As a pilot stranded on an island that is quickly flooding, the objective is to gather all the helicopter pieces and escape before the water drowns you. Below I demonstrate the opening sequence, menu with instructions, all the different types of islands, and a complete escape. </p>
+			<script>
+    			var attributes = {codebase: 'Documents/GitHub/ForbiddenIsland/jars/game.jar',
+                      code: 'ExamplesIsland.class',
+                      archive: 'game.jar',
+                      width: '800', 
+                      height: '600'};
+    			var parameters = {java_arguments: 'ExamplesIsland'}; // customize per your needs
+    			var version = '1.5'; // JDK version
+    			deployJava.runApplet(attributes, parameters, version);
+			</script>
 			<img src="Images/intro.gif" class="leftGame"/>
 			<img src="Images/menu.gif" class="rightGame"/>
 			<img src="Images/islands.gif" class="leftGame"/>
