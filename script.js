@@ -27,7 +27,7 @@ $(document).ready(function() {
 		},
 		function() {
 			$(".jumbotron").css("position", "relative");
-			$(".jumbotron").css("background", "#000 url(\"ocean.jpg\") center center");
+			$(".jumbotron").css("background", "#000 url(\"Images/ocean.jpg\") center center");
 			$(".jumbotron").css("width", "100%");
 			$(".jumbotron").css("height", "500px");
 			$(".jumbotron").css("background-size", "cover");
