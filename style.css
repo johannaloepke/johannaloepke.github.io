@@ -1,3 +1,30 @@
+p {
+	color: #9AA5AA;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+h2 {
+	color: #3BC6F8;
+	font-size: 8vw;
+	font-family: 'Josefin Sans', bold;
+}
+
+h3 {
+	color: #3BC6F8;
+	font-size: 7vw;
+	font-family: 'Josefin Sans', bold;
+}
+
+h4 {
+	position: relative;
+	padding-left: 20px;
+	color: #0E3771;
+	font-family: 'Josefin Sans', bold;
+	font-size: 4.5vw;
+}
+
+
 .icons {
 	position: absolute;
 	text-align: left;
@@ -21,16 +48,15 @@
 }
 
 .title {
-	margin-top: 13vw !important;
+	margin-top: 13vw;
 	text-align: center;
-	margin-top: 10vw;
 	color: white;
 	font-size: 10vw;
 	font-family: 'Josefin Sans', bold;
 }
 
 a.caption:link, a.caption:visited, a.caption:active {
-	margin-left: 15.5vw;
+	margin-left: 17vw;
 	color: white;
 	font-size: 2.2vw;
 	text-align: center;
@@ -51,24 +77,13 @@ a.caption:hover {
     overflow: hidden;
 }
 
-h2 {
-
-	color: #3BC6F8 !important;
-	font-size: 8vw !important;
-	font-family: 'Josefin Sans', bold !important;
-}
-
 .hack {
 	position: relative;
-	margin-left: 20px !important;
-	margin-bottom: 20px !important;
-	color: #9AA5AA !important;
-	font-family: 'Josefin Sans' !important;
-	font-size: 20px !important;
-}
-
-p {
-	color: #9AA5AA !important;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	color: #9AA5AA;
+	font-family: 'Josefin Sans';
+	font-size: 20px;
 }
 
 .myPic {
@@ -79,7 +94,6 @@ p {
 
 .bio {
 	float: left;
-	position: relative;
 	color: #0E3771;
 	font-family: 'Josefin Sans', bold;
 	font-size: 20px;
@@ -117,13 +131,6 @@ a.apk {
 	padding-right: 10px;
 	padding-left: 30px;
 	padding-bottom: 20px;
-}
-
-
-h3 {
-	color: #3BC6F8 !important;
-	font-size: 7vw !important;
-	font-family: 'Josefin Sans', bold !important;
 }
 
 .school {
@@ -172,13 +179,5 @@ h3 {
 	color: #0E3771;
 	font-family: 'Josefin Sans', bold;
 	font-size: 20px;
-}
-
-h4 {
-	position: relative;
-	padding-left: 20px;
-	color: #0E3771 !important;
-	font-family: 'Josefin Sans', bold !important;
-	font-size: 5vw !important;
 }
 
