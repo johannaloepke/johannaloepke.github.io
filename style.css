@@ -147,13 +147,25 @@ h3 {
 	font-size: 20px;
 }
 
-.discrete {
+.logic {
 	color: #0E3771;
 	font-family: 'Josefin Sans', bold;
 	font-size: 20px;
 }
 
-.logic {
+.ood {
+	color: #0E3771;
+	font-family: 'Josefin Sans', bold;
+	font-size: 20px;
+}
+
+.algo {
+	color: #0E3771;
+	font-family: 'Josefin Sans', bold;
+	font-size: 20px;
+}
+
+.systems {
 	color: #0E3771;
 	font-family: 'Josefin Sans', bold;
 	font-size: 20px;
