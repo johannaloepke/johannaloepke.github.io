@@ -5,7 +5,7 @@
 	left: 0;
 	padding-top: 5px;
 	padding-left: 5px;
-	z-index: 9999;  // places the icons in front of jumbotron
+	z-index: 9999;  /* places the icons in front of jumbotron */
 }
 
 .memo {
@@ -21,6 +21,7 @@
 }
 
 .title {
+	margin-top: 13vw !important;
 	text-align: center;
 	margin-top: 10vw;
 	color: white;
@@ -29,10 +30,9 @@
 }
 
 a.caption:link, a.caption:visited, a.caption:active {
-	margin-left: 16vw;
-	width: 33.3333333%;
+	margin-left: 15.5vw;
 	color: white;
-	font-size: 2vw;
+	font-size: 2.2vw;
 	text-align: center;
 	font-family: 'Josefin Sans', serif;
 }
@@ -46,7 +46,7 @@ a.caption:hover {
     position: relative;
     background: #000 url(Images/ocean.jpg) center center;
     width: 100%;
-    height: 45vw;
+    height: 56vw;
     background-size: cover;
     overflow: hidden;
 }
@@ -54,7 +54,7 @@ a.caption:hover {
 h2 {
 
 	color: #3BC6F8 !important;
-	font-size: 6em !important;
+	font-size: 8vw !important;
 	font-family: 'Josefin Sans', bold !important;
 }
 
@@ -122,7 +122,7 @@ a.apk {
 
 h3 {
 	color: #3BC6F8 !important;
-	font-size: 4em !important;
+	font-size: 7vw !important;
 	font-family: 'Josefin Sans', bold !important;
 }
 
@@ -179,6 +179,6 @@ h4 {
 	padding-left: 20px;
 	color: #0E3771 !important;
 	font-family: 'Josefin Sans', bold !important;
-	font-size: 3em !important;
+	font-size: 5vw !important;
 }
 
