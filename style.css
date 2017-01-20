@@ -13,8 +13,8 @@
 	text-align: right;
 	top: 0;
 	right: 0;
-	padding-top: 5px;
-	padding-right: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
 	color: white;
 	font-size: 15px;
 	font-family: 'Josefin Sans', serif;
@@ -22,16 +22,17 @@
 
 .title {
 	text-align: center;
-	padding-top: 100px;
+	margin-top: 10vw;
 	color: white;
-	font-size: 120px;
+	font-size: 10vw;
 	font-family: 'Josefin Sans', bold;
 }
 
 a.caption:link, a.caption:visited, a.caption:active {
-	padding-left: 20%;
+	margin-left: 16vw;
+	width: 33.3333333%;
 	color: white;
-	font-size: 20px;
+	font-size: 2vw;
 	text-align: center;
 	font-family: 'Josefin Sans', serif;
 }
@@ -43,23 +44,24 @@ a.caption:hover {
 
 .jumbotron {
     position: relative;
-    background: #000 url("Images/ocean.jpg") center center;
+    background: #000 url(Images/ocean.jpg) center center;
     width: 100%;
-    height: 500px;
+    height: 45vw;
     background-size: cover;
     overflow: hidden;
 }
 
 h2 {
+
 	color: #3BC6F8 !important;
-	font-size: 100px !important;
+	font-size: 6em !important;
 	font-family: 'Josefin Sans', bold !important;
 }
 
 .hack {
 	position: relative;
-	padding-left: 20px !important;
-	padding-bottom: 20px !important;
+	margin-left: 20px !important;
+	margin-bottom: 20px !important;
 	color: #9AA5AA !important;
 	font-family: 'Josefin Sans' !important;
 	font-size: 20px !important;
@@ -120,7 +122,7 @@ a.apk {
 
 h3 {
 	color: #3BC6F8 !important;
-	font-size: 50px !important;
+	font-size: 4em !important;
 	font-family: 'Josefin Sans', bold !important;
 }
 
@@ -177,6 +179,6 @@ h4 {
 	padding-left: 20px;
 	color: #0E3771 !important;
 	font-family: 'Josefin Sans', bold !important;
-	font-size: 35px !important;
+	font-size: 3em !important;
 }
 
