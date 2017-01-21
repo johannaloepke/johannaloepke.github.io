@@ -1,7 +1,5 @@
 p {
 	color: #9AA5AA;
-	margin-left: 15px;
-	margin-right: 15px;
 }
 
 h2 {
@@ -133,16 +131,21 @@ a.apk {
 	padding-bottom: 20px;
 }
 
+.col-md-offset-5 {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
 .school {
 	color: #0E3771;
 	font-family: 'Josefin Sans', bold;
 	font-size: 20px;
 }
 
-
 .neuPic {
 	float: left;
-	width: 35%;
+	width: 40%;
+	padding-right: 20px;
 }
 
 .fundies1 {
