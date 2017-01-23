@@ -49,7 +49,7 @@ h4 {
 	margin-top: 13vw;
 	text-align: center;
 	color: white;
-	font-size: 10vw;
+	font-size: 12vw;
 	font-family: 'Josefin Sans', bold;
 }
 
@@ -85,9 +85,10 @@ a.caption:hover {
 }
 
 .myPic {
-	float: right;
 	position: relative;
 	width: 55%;
+	margin-left: 20px;
+	margin-bottom: 10px;
 }
 
 .bio {
@@ -183,4 +184,5 @@ a.apk {
 	font-family: 'Josefin Sans', bold;
 	font-size: 20px;
 }
+
 
