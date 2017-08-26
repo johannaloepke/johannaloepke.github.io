@@ -1,5 +1,95 @@
+/*banner animations*/
+.first {
+	-webkit-animation: bannermove 30s linear infinite;
+	   -moz-animation: bannermove 30s linear infinite;
+	    -ms-animation: bannermove 30s linear infinite;
+	     -o-animation: bannermove 30s linear infinite;
+	        animation: bannermove 30s linear infinite;
+}
+ 
+@keyframes "bannermove" {
+	0% {
+		margin-left: 0px;
+	}
+ 	100% {
+    	margin-left: -214.9vw;
+ 	}
+ }
+
+@-moz-keyframes bannermove {
+ 	0% {
+   		margin-left: 0px;
+ 	}
+ 	100% {
+   		margin-left: -214.9vw;
+ 	} 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 	0% {
+   		margin-left: 0px;
+ 	}
+	100% {
+   		margin-left: -214.9vw;
+ 	}
+}
+ 
+@-ms-keyframes "bannermove" {
+ 	0% {
+   		margin-left: 0px;
+ 	}
+ 	100% {
+   		margin-left: -214.9vw;
+ 	}
+}
+ 
+@-o-keyframes "bannermove" {
+	0% {
+   		margin-left: 0px;
+ 	}
+ 	100% {
+   		margin-left: -214.9vw;
+	}
+}
+
+#photobanner {
+	width: 100%;
+	overflow: hidden;
+	background: white;
+}
+
+.photos {
+	height: 30vw;
+	width: 4000px;
+	margin-bottom: 4vw;
+	margin-top: 2vw;
+}
+
+.photos img {
+	height: 30vw;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.photos img:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor: pointer;
+ 
+	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
 p {
 	color: #9AA5AA;
+	font-size: 2.1vw;
 }
 
 h2 {
@@ -33,6 +123,10 @@ h4 {
 	z-index: 9999;  /* places the icons in front of jumbotron */
 }
 
+.icons img {	
+	width: 5%;
+}
+
 .memo {
 	position: absolute;
 	text-align: right;
@@ -41,7 +135,7 @@ h4 {
 	margin-top: 5px;
 	margin-right: 5px;
 	color: white;
-	font-size: 15px;
+	font-size: 20px;
 	font-family: 'Josefin Sans', serif;
 }
 
@@ -81,39 +175,30 @@ a.caption:hover {
 	margin-bottom: 20px;
 	color: #9AA5AA;
 	font-family: 'Josefin Sans';
-	font-size: 20px;
 }
 
 .myPic {
 	position: relative;
 	width: 55%;
-	margin-left: 20px;
+	margin-left: 30px;
 	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 991.5px) {
+  .myPic {
+    width: 90%;
+    float: middle;
+  }
 }
 
 .bio {
 	float: left;
 	color: #0E3771;
 	font-family: 'Josefin Sans', bold;
-	font-size: 20px;
 }
 
 a.apk {
 	color: #3BC6F8;
-}
-
-.leftVR {
-	float: left;
-	position: relative;
-	padding-left: 20px;
-	padding-bottom: 10px;
-}
-
-.rightVR {
-	float: right;
-	position: relative;
-	padding-right: 20px;
-	padding-bottom: 10px;
 }
 
 .topGame {
@@ -140,49 +225,44 @@ a.apk {
 .school {
 	color: #0E3771;
 	font-family: 'Josefin Sans', bold;
-	font-size: 20px;
 }
 
 .neuPic {
 	float: left;
 	width: 40%;
-	padding-right: 20px;
+	padding-top: 1vw;
+	margin-right: 4vw;
+	margin-bottom: 1vw;
 }
 
 .fundies1 {
 	color: #0E3771;
 	font-family: 'Josefin Sans', bold;
-	font-size: 20px;
 }
 
 .fundies2 {
 	color: #0E3771;
 	font-family: 'Josefin Sans', bold;
-	font-size: 20px;
 }
 
 .logic {
 	color: #0E3771;
 	font-family: 'Josefin Sans', bold;
-	font-size: 20px;
 }
 
 .ood {
 	color: #0E3771;
 	font-family: 'Josefin Sans', bold;
-	font-size: 20px;
 }
 
 .algo {
 	color: #0E3771;
 	font-family: 'Josefin Sans', bold;
-	font-size: 20px;
 }
 
 .systems {
 	color: #0E3771;
 	font-family: 'Josefin Sans', bold;
-	font-size: 20px;
 }
 
 

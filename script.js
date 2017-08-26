@@ -19,9 +19,15 @@ $(document).ready(function() {
 		function() {
 			$.ajax("https://api.nasa.gov/planetary/apod?api_key=639SL5aQsEnsUBZkjD6GobqRKpOmZ7s2K6qeUhGE", {
 	    		success: function (data) {
-	    			data.hd = true;
-	      			$(".jumbotron").css("background", "url(" + data.url + ")");
-	      			$(".jumbotron").css("background-size", "cover");
+	    			if (data.media_type == "video") {
+	    				$(".jumbotron").css("background", "url(Images/galaxy.jpg)");
+	      				$(".jumbotron").css("background-size", "cover");
+	    			}
+	    			else {
+	    				data.hd = true;
+	      				$(".jumbotron").css("background", "url(" + data.url + ")");
+	      				$(".jumbotron").css("background-size", "cover");
+	      			}
 	    		}
 	    	});
 		},
