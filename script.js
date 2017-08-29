@@ -42,16 +42,10 @@ $(document).ready(function() {
 	);
 
     // shows course descriptions when clicking the title
-
     $(function() {
     	$('#descriptions').find('.toggle').click(function(){
-
-      	//Expand or collapse this panel
       	$(this).next().slideToggle('fast');
-
-      	//Hide the other panels
       	$(".content").not($(this).next()).slideUp('fast');
-
     });
   });
 });
