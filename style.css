@@ -1,12 +1,25 @@
 @media (min-width: 1200px) {
 	#override-bootstrap .container {
-		width: 970px;
+		width: 85vw;
+	}
+	#override-bootstrap h5 {
+		margin-bottom: 1.5vw;
+		margin-top: 1vw;
+	}
+	#override-bootstrap h2, h3, h4 {
+		margin-top: 3vw;
+	}
+}
+
+@media (max-width: 991.5px) {
+	#override-bootstrap h2 {
+		margin-top: 1vw;
 	}
 }
 
 p {
 	color: #9AA5AA;
-	font-size: 27px;
+	font-size: 2.3vw;/*27px;*/
 }
 
 h2 {
@@ -32,7 +45,7 @@ h4 {
 h5 {
 	color: #9AA5AA;
 	font-family: 'Josefin Sans', bold;
-	font-size: 27px;
+	font-size: 2.3vw;
 }
 
 /* Header */
@@ -41,13 +54,13 @@ h5 {
 	text-align: left;
 	top: 0;
 	left: 0;
-	padding-top: 5px;
-	padding-left: 5px;
+	padding-top: 1vw;
+	padding-left: 1vw;
 	z-index: 999;  /* places the icons in front of jumbotron */
 }
 
 .icons img {	
-	width: 5%;
+	width: 5vw;
 	-webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -154,17 +167,15 @@ nav a:focus {
 .myPic {
 	position: relative;
 	width: 55%;
-	margin-left: 30px;
-	margin-top: 40px;
-	margin-bottom: 20px;
+	margin-left: 1.7vw;
+	margin-bottom: 3vw;
 }
 
 @media screen and (max-width: 991.5px) {
   .myPic {
-  	margin-top: 20px;
-  	margin-left: 50px;
+  	margin-left: 20px;
+  	margin-bottom: 20px;
     width: 80%;
-    float: middle;
   }
 }
 
@@ -195,7 +206,7 @@ a.apk {
 
 .photos {
 	height: 30vw;
-	width: 5000px;
+	width: 20000px;
 	margin-bottom: 4vw;
 	margin-top: 2vw;
 }
@@ -277,15 +288,14 @@ a.apk {
 }
 
 .gifs {
-	float: middle;
 	position: relative;
-	padding-right: 10px;
-	padding-left: 30px;
-	padding-bottom: 20px;
+	margin-top: 2vw;
+	margin-left: 1vw;
+	margin-bottom: 2vw;
 }
 
 .gifs img {
-	 padding-right: 10px;
+	 padding-right: .7vw;
 	 width: 49%;
 }
 
@@ -309,7 +319,6 @@ a.apk {
 	display: none;
 	color: #0E3771;
 	font-family: 'Josefin Sans', bold;
-	font-size: 27px;
 }
 
 /* Footer */
@@ -322,28 +331,28 @@ footer {
 
 footer img {
 	width: 100%;
-	margin-top: 20px;
+	margin-top: 5.3vw;
 }
 
 footer div {
 	position: absolute;
 	color: white;
-	font-size: 20px;
+	font-size: 2.5vw;
 	z-index: 1000;
 	font-family: 'Josefin Sans', bold;
 }
 
 footer .reach {
-	right: 50px;
-  	top: 65px;
+	right: 5vw;
+  	top: 7.5vw;
 }
 
 footer .email {
-	right: 50px;
-	top: 105px;
+	right: 5vw;
+	top: 11.5vw;
 }
 
 footer .phone {
-	right: 50px;
-	top: 145px;
+	right: 5vw;
+	top: 15.5vw;
 }
