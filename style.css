@@ -17,9 +17,34 @@
 	}
 }
 
+@media (max-width: 643px) {
+	.memo {
+		display: none;
+	}
+
+	.jumbotron .title {
+		font-size: 12vh;
+		margin-top: 33vh;
+	}
+
+	.jumbotron .caption a {
+		margin-left: 14vw;
+		font-size: 3vw;
+	}
+
+	#override-bootstrap p {
+		font-size: 2.3vh;
+	}
+
+	.col-md-offset-5 h5 {
+		font-size: 2.3vh;
+	}
+	
+}
+
 p {
 	color: #9AA5AA;
-	font-size: 2.3vw;/*27px;*/
+	font-size: 2.3vw;
 }
 
 h2 {
@@ -60,7 +85,7 @@ h5 {
 }
 
 .icons img {	
-	width: 5vw;
+	width: 10vh;
 	-webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -89,7 +114,7 @@ h5 {
 }
 
 .title {
-	margin-top: 13vw;
+	margin-top: 25vh;
 	text-align: center;
 	color: white;
 	font-size: 12vw;
@@ -158,7 +183,7 @@ nav a:focus {
     position: relative;
     background: #000 url(Images/ocean.jpg) center center;
     width: 100%;
-    height: 56vw;
+    height: 100vh;
     background-size: cover;
     overflow: hidden;
 }
