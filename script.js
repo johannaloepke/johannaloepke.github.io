@@ -17,14 +17,13 @@ $(document).ready(function() {
 	// changes the jumbotron picture to NASA's Astronomy Picture of the Day on click
 	$('.jumbotron').toggle( 
 		function() {
-			$.ajax("https://api.nasa.gov/planetary/apod?api_key=639SL5aQsEnsUBZkjD6GobqRKpOmZ7s2K6qeUhGE", {
+			$.ajax("https://api.nasa.gov/planetary/apod?hd=False&api_key=ffNevQSLNePBIdPvXmyuJHsmjnnAi4jYvWJGELsK", {
 	    		success: function (data) {
 	    			if (data.media_type == "video") {
 	    				$(".jumbotron").css("background", "url(Images/galaxy.jpg)");
 	      				$(".jumbotron").css("background-size", "cover");
 	    			}
 	    			else {
-	    				data.hd = true;
 	      				$(".jumbotron").css("background", "url(" + data.url + ")");
 	      				$(".jumbotron").css("background-size", "cover");
 	      			}

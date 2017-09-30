@@ -15,21 +15,28 @@
 	#override-bootstrap h2 {
 		margin-top: 1vw;
 	}
+	.jumbotron .caption a {
+		margin-left: 10vw;
+		font-size: 4vw;
+	}
+	.jumbotron .title {
+		margin-top: 33vh;
+	}
 }
 
-@media (max-width: 643px) {
+@media (max-width: 750px) {
 	.memo {
 		display: none;
 	}
 
 	.jumbotron .title {
-		font-size: 12vh;
+		font-size: 80px;
 		margin-top: 33vh;
 	}
 
 	.jumbotron .caption a {
-		margin-left: 14vw;
-		font-size: 3vw;
+		margin-left: 10vw;
+		font-size: 4vw;
 	}
 
 	#override-bootstrap p {
