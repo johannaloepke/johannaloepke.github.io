@@ -11,7 +11,7 @@
 	}
 }
 
-@media (max-width: 991.5px) {
+@media (max-width: 1080px) {
 	#override-bootstrap h2 {
 		margin-top: 1vw;
 	}
@@ -121,7 +121,7 @@ h5 {
 }
 
 .title {
-	margin-top: 25vh;
+	margin-top: 33vh;
 	text-align: center;
 	color: white;
 	font-size: 12vw;
