@@ -217,6 +217,18 @@ nav a:focus {
 	font-family: 'Josefin Sans', bold;
 }
 
+.video {
+  max-width: 80vw;
+  margin-bottom: 5vw;
+}
+
+.video iframe {
+	margin-left: 3vw;
+  	margin-top: 3vw;
+  	width: 100%;
+  	height: 45vw;
+}
+
 /* Projects */
 .hack {
 	position: relative;
@@ -323,7 +335,7 @@ a.apk {
 	position: relative;
 	margin-top: 2vw;
 	margin-left: 1vw;
-	margin-bottom: 2vw;
+	margin-bottom: 5vw;
 }
 
 .gifs img {
