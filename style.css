@@ -92,7 +92,7 @@ h5 {
 }
 
 .icons img {	
-	width: 10vh;
+	width: 14vh;
 	-webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -101,11 +101,11 @@ h5 {
 }
 
 .icons img:hover {
-	-webkit-transform: rotate(10deg);
-    -moz-transform: rotate(10deg);
-    -o-transform: rotate(10deg);
-    -ms-transform: rotate(10deg);
-    transform: rotate(10deg);
+	-webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+    -o-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    transform: rotate(12deg);
 }
 
 .memo {
