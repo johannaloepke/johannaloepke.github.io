@@ -331,6 +331,14 @@ a.apk {
 	}
 }
 
+.photo img {
+	margin-top: 1vw;
+	margin-left: 7.5vw;
+	margin-right: 5vw;
+	margin-bottom: 3vw;
+	width: 80%;
+}
+
 .gifs {
 	position: relative;
 	margin-top: 2vw;
