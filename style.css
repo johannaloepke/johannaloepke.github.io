@@ -52,32 +52,42 @@
 p {
 	color: #9AA5AA;
 	font-size: 2.2vw;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+div {
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 h2 {
 	color: #3BC6F8;
 	font-size: 7vw;
-	font-family: 'Josefin Sans', bold;
+	font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
 }
 
 h3 {
 	color: #3BC6F8;
 	font-size: 5.5vw;
-	font-family: 'Josefin Sans', bold;
+	font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
 }
 
 h4 {
 	position: relative;
 	padding-left: 20px;
 	color: #0E3771;
-	font-family: 'Josefin Sans', bold;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 4.5vw;
+    font-weight: 700;
 }
 
 h5 {
 	color: #9AA5AA;
-	font-family: 'Josefin Sans', bold;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 2.3vw;
+    font-weight: 600;
 }
 
 /* Header */
@@ -117,7 +127,7 @@ h5 {
 	margin-right: 5px;
 	color: white;
 	font-size: 2vw;
-	font-family: 'Josefin Sans', serif;
+	font-weight: 600;
 }
 
 .title {
@@ -125,7 +135,7 @@ h5 {
 	text-align: center;
 	color: white;
 	font-size: 12vw;
-	font-family: 'Josefin Sans', bold;
+	font-weight: 600;
 	text-decoration: none;
 }
 
@@ -134,7 +144,7 @@ h5 {
 	color: white;
 	font-size: 2.2vw;
 	text-align: center;
-	font-family: 'Josefin Sans', serif;
+	font-weight: 700;
 }
 
 /* Produces ring around links */
@@ -205,28 +215,40 @@ nav a:focus {
 
 @media screen and (max-width: 991.5px) {
   .myPic {
-  	margin-left: 20px;
+  	margin-left: 2.5vw;
   	margin-bottom: 20px;
-    width: 80%;
+    width: 70%;
   }
 }
 
 .bio {
 	float: left;
 	color: #0E3771;
-	font-family: 'Josefin Sans', bold;
+}
+
+.quote {
+    float: left;
+	color: #9AA5AA;
+	font-weight: 400;
 }
 
 .video {
-  max-width: 80vw;
+  max-width: 85vw;
   margin-bottom: 5vw;
 }
 
 .video iframe {
-	margin-left: 3vw;
-  	margin-top: 3vw;
-  	width: 100%;
+    margin-left: 2%;
+  	margin-top: 1vw;
+  	width: 97%;
   	height: 45vw;
+}
+
+@media screen and (max-width: 991.5px) {
+  .video iframe {
+  	margin-left: 7vw;
+    width: 85%;
+  }
 }
 
 /* Projects */
@@ -235,7 +257,6 @@ nav a:focus {
 	margin-left: 20px;
 	margin-bottom: 20px;
 	color: #9AA5AA;
-	font-family: 'Josefin Sans';
 }
 
 a.apk {
@@ -360,7 +381,6 @@ a.apk {
 
 .col-md-offset-5 p {
 	color: #0E3771;
-	font-family: 'Josefin Sans', bold;
 }
 
 .toggle {
@@ -370,7 +390,7 @@ a.apk {
 .content {
 	display: none;
 	color: #0E3771;
-	font-family: 'Josefin Sans', bold;
+	font-weight: 700;
 }
 
 /* Footer */
@@ -391,7 +411,7 @@ footer div {
 	color: white;
 	font-size: 2.5vw;
 	z-index: 1000;
-	font-family: 'Josefin Sans', bold;
+	font-weight: 700;
 }
 
 footer .reach {
@@ -402,9 +422,4 @@ footer .reach {
 footer .email {
 	right: 5vw;
 	top: 11.5vw;
-}
-
-footer .phone {
-	right: 5vw;
-	top: 15.5vw;
 }
