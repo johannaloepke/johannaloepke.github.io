@@ -209,16 +209,8 @@ nav a:focus {
 .myPic {
 	position: relative;
 	width: 55%;
-	margin-left: 1.7vw;
+	margin-left: 2vw;
 	margin-bottom: 3vw;
-}
-
-@media screen and (max-width: 991.5px) {
-  .myPic {
-  	margin-left: 2.5vw;
-  	margin-bottom: 20px;
-    width: 70%;
-  }
 }
 
 .bio {
@@ -238,17 +230,10 @@ nav a:focus {
 }
 
 .video iframe {
-    margin-left: 2%;
+    margin-left: 1.5vw;
   	margin-top: 1vw;
   	width: 97%;
   	height: 45vw;
-}
-
-@media screen and (max-width: 991.5px) {
-  .video iframe {
-  	margin-left: 7vw;
-    width: 85%;
-  }
 }
 
 /* Projects */
