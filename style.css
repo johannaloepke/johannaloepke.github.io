@@ -218,24 +218,6 @@ nav a:focus {
 	color: #0E3771;
 }
 
-.quote {
-    float: left;
-	color: #9AA5AA;
-	font-weight: 400;
-}
-
-.video {
-  max-width: 85vw;
-  margin-bottom: 5vw;
-}
-
-.video iframe {
-    margin-left: 1.5vw;
-  	margin-top: 1vw;
-  	width: 97%;
-  	height: 45vw;
-}
-
 /* Projects */
 .hack {
 	position: relative;
