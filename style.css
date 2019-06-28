@@ -216,6 +216,7 @@ nav a:focus {
 .bio {
 	float: left;
 	color: #0E3771;
+	margin-bottom: 1.8vw;
 }
 
 /* Projects */
