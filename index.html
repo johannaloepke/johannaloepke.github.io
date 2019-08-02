@@ -14,7 +14,7 @@
 	</head>
 
 	<body id = "override-bootstrap">
-	<div class="icons"> 
+	<div class="icons jumboFadeIn"> 
 		<a href="https://github.com/johannaloepke"> 
 			<img src="Images/githubicon.png" alt= "My GitHub"></a>
 		<a href="https://www.linkedin.com/in/johannaloepke">
@@ -22,7 +22,7 @@
 		<a href="Johanna_Loepke_Resume.pdf">
 			<img src="Images/resume.png" alt="My Resume"></a>
 	</div>
-	<div class="jumbotron">
+	<div class="jumbotron jumboFadeIn">
 		<div class="memo"> Click anywhere to see NASA's Pic of the Day! </div>
 		<div class="title">Johanna Loepke</div>
 		<nav class="caption">
@@ -31,7 +31,7 @@
 			<a href="#edu">Education</a>
 		</nav>
 	</div>
-	<div class="container">
+	<div class="container fadeIn">
 		<div id="about"> <h2> About Me </h2> 
 		</div>
 		<div class="row">
@@ -51,7 +51,7 @@
 
 		</div>
 	</div>
-	<div class="container">
+	<div class="container fadeIn">
 		<div id="project"> <h2> Projects </h2> </div>
 		<div class="row">
 			<h4> Solar System in Virtual Reality 🔭</h4>
@@ -60,7 +60,7 @@
 	</div>
 			
 	<div id="photobanner">
-		<div class="photos">
+		<div class="photos fadeIn">
 			<img class="first" src="Images/VRPic1.jpg" alt="Screenshot of VR experience: Mars, Jupiter, Uranus and Neptune with an arm of the Milky Way"/>
     		<img src="Images/VRPic3.jpg" alt="Screenshot of VR experience: The Earth and its Moon"/>
     		<img src="Images/VRPic2.jpg" alt="Screenshot of VR experience: The Sun"/>
@@ -70,29 +70,29 @@
     	</div>
 	   </div>
 	   
-	<div class="container">
+	<div class="container fadeIn">
 		<div class="row">
 			<h4> Instant Aux 🎵</h4>
 			<p class="hack"> A Vue.js app that generates a unique Spotify playlist from chosen genres, artists, and attributes (e.g. danceability). Click the picture to see it in action! </p>
 			<div class="photo">
 				<a href="https://johannaloepke.github.io/instant-aux">
-					<img src="Images/instant-aux.jpg" alt="The UI of the Instant Aux app, showing genres to choose from."/> 
+					<img class="auxImg"src="Images/instant-aux.jpg" alt="The UI of the Instant Aux app, showing genres to choose from."/> 
 				</a>
 			</div>
 		</div>
 	</div>
 
-	<div class="container">
+	<div class="container fadeIn">
 		<div class="row">
 			<h4> Wines of the World Map 🍷</h4>
 			<p class="hack"> An in-progress interactive map of global wine regions and their grape varietals - uses custom GeoJSON, QGIS, and amCharts</p>
 			<div class="photo">
-				<img src="Images/wine.png" alt="A map of France's wine regions, so far it includes data on Bordeaux and Alsace."/>
+				<img class="wineImg" src="Images/wine.jpg" alt="A map of France's wine regions, so far it includes data on Bordeaux and Alsace."/>
 			</div>
 		</div>
 	</div>
 
-   	<div class="container">
+   	<div class="container fadeIn">
 		<div class="row">
 			<h4> Music Editor 🎛</h4>
 			<p class="hack"> Java Swing GUI implementation of a MIDI music editor which utilizes the MVC design pattern. You can import existing MIDI files or create something new with click and drag notes, tempo adjustments, dynamics, and repeats. Created in Object-Oriented Design. </p>
@@ -103,14 +103,14 @@
 	</div>
 
 	<div class="container">
-		<div id="edu"> <h2> Education </h2> </div>
+		<div id="edu" class="fadeIn"> <h2> Education </h2> </div>
 		<div class="row">
-			<div class="col-md-offset-5">
+			<div class="col-md-offset-5 fadeIn">
 				<p> I'm working towards a 2020 Bachelor's degree in Computer Science and Cognitive Psychology at Northeastern University in Boston, MA.</p>
 				<h3> Classes </h3>
 				<p> Click the name for more information! <p>
 				<br>
-				<div id="descriptions">
+				<div class="fadeIn" id="descriptions">
   					<h5 class="toggle"> Fundamentals of Computer Science 1: </h5>
   					<div class="content">
     					<p> Worked in Dr. Racket, using ISL, a functional Scheme-type language to introduce the basics of computation. </p>
